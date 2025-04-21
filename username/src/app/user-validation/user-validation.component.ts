@@ -26,15 +26,15 @@ export class UserValidationComponent {
 
     if (!this.username) {
 
-      this.usernameMessage = '❌ Enter username';
+      this.usernameMessage = ' Enter username';
 
     } else if (this.username.length < 3) {
 
-      this.usernameMessage = '❌ Username is too short';
+      this.usernameMessage = ' Username is too short';
 
     } else {
 
-      this.usernameMessage = '✅ Valid username';
+      this.usernameMessage = ' Valid username';
 
     }
 
@@ -45,11 +45,11 @@ export class UserValidationComponent {
 
     if (this.password.length < 8) {
 
-      this.passwordMessage = '❌ Password must be at least 8 characters';
+      this.passwordMessage = ' Password must be at least 8 characters';
 
     } else {
 
-      this.passwordMessage = '✅ Valid password';
+      this.passwordMessage = ' Valid password';
 
     }
 
